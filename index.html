@@ -2,43 +2,111 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="aos.css"> <!-- Include AOS CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Canara Engineering College</title>
+    <link rel="icon" type="image/png" href="your-icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-    <header>
+
+<body id="home">
+<div class="wrapper">
+    <header id="header">
+        <div>
+            <div class="logo-name">
+                <div class="logo"><a href="index.html" title="">
+                    <img class="logo1" src="images/logo.png" style="height: 100px" alt="logo">
+                </a></div>
+                <div class="name">
+                    <a href="index.html" title="">
+                        <h1>Canara Engineering College</h1>
+                        <p class="subtitle">Owned and Managed by Canara High School Association</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header-links">
+            <a href="#" data-toggle="popover" title="Address"
+            data-content="Your Address Here"
+            data-placement="bottom"><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i></a>
+
+            <a href="#" data-toggle="popover" title="Phone No." data-content="8792727001/8904737001"
+            data-placement="bottom"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></a>
+
+            <a href="#" data-toggle="popover" title="Email" data-content="canarait@gmail.com"
+            data-placement="bottom"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+        </div>
+    </div>
         <nav>
-            <div class="container">
-                <h1 class="logo">Canara Engineering College</h1>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Admissions</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Facilities</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+            <div class="navbar navbar-inverse navbar-custom" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                                data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">HOME</a>
+                            </li>
+                            <li>
+                                <a href="#">ABOUT US</a>
+                            </li>
+                            <li>
+                                <a href="#">ADMISSIONS</a>
+                            </li>
+                            <li>
+                                <a href="#">DEPARTMENTS</a>
+                            </li>
+                            <li>
+                                <a href="#">FACILITIES</a>
+                            </li>
+                            <li>
+                                <a href="#">STUDENTS</a>
+                            </li>
+                            <li>
+                                <a href="#">ALUMNI</a>
+                            </li>
+                            <li>
+                                <a href="#">RESEARCH</a>
+                            </li>
+                            <li>
+                                <a href="#">ACCREDITATION</a>
+                            </li>
+                            <li>
+                                <a href="#">T & P CELL</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
-    <section class="welcome" >
+    <section id="about" class="section">
         <div class="container">
-            <h2>Welcome to Canara Engineering College</h2>
-            <p>Providing quality education and fostering future leaders.</p>
-            <a href="#">Learn More</a>
+            <h2>About Us</h2>
+            <p>Canara Engineering College is a premier institution...</p>
         </div>
     </section>
-    <!-- Add more sections for About Us, Courses, Facilities, Testimonials, Contact, etc. -->
-    <footer>
+
+    <section id="admissions" class="section">
+        <div class="container">
+            <h2>Admissions</h2>
+            <p>We offer a wide range of programs to cater to...</p>
+        </div>
+    </section><footer class="footer">
         <div class="container">
             <p>&copy; 2023 Canara Engineering College</p>
         </div>
     </footer>
-    <script src="aos.js"></script> <!-- Include AOS JavaScript -->
-    <script>
-        AOS.init(); // Initialize AOS scroll animations
-    </script>
+</div>
 </body>
 </html>
