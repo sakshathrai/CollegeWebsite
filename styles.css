@@ -19,12 +19,11 @@ body {
 }
 
 .logo1 {
-    max-width: 100%;
-    height: auto;
+    align-items: stretch;
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: bold;
     margin: 0;
 }
@@ -42,6 +41,7 @@ h1 {
 
 .navbar-custom {
     background-color: #444;
+    margin-bottom: 0px;
 }
 
 .navbar-nav li a {
@@ -50,7 +50,7 @@ h1 {
 }
 
 .wrapper {
-    padding: 20px;
+    padding: 10px;
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -86,6 +86,9 @@ h1 {
 }
 
 .containerimg img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    padding-top: 0px;
+    height:500px;
 }
