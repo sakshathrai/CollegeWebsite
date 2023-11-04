@@ -4,7 +4,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+.frontBody{
+    height: 100vh;
+}
 #header {
     background-color: #fbf9f9;
     color: #000; 
@@ -45,7 +47,7 @@ h1 {
 }
 
 .navbar-custom {
-    background-color: #444;
+    background-color: #1a1717;
     margin-bottom: 0px;
     color: #fff;
 }
@@ -58,17 +60,6 @@ h1 {
 .container {
     padding: 20px;
 }
-
-.containerimg {
-    width: 100%;
-}
-
-.containerimg img {
-    width: 100%;
-    padding: 10px;
-    height: auto;
-}
-
 .name h1 {
     font-size: 60px;
 }
@@ -135,4 +126,26 @@ h1 {
     .wrapper , .logo-name{
         padding-top: 5px; 
     }
+}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.item1{
+    background-color: #000;
+}
+.item2{
+    background-color: rgb(17, 85, 85);
+}
+.item3{
+    background-color: rgb(2, 17, 17);
+}
+.item4{
+    background-color: rgb(119, 125, 125);
+}
+.item5{
+    background-color: rgb(48, 3, 51);
 }
