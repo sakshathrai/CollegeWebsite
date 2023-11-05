@@ -295,26 +295,20 @@ marquee{
     background: rgba(255, 255, 255, 0.7);
 }
 /* -------------footer---------- */
-.footer-col ul li:not(:last-child){
-    margin-bottom: 10px;
-}
+
 .footer{
-    background-color: darkblue;
+    /* background-color: darkblue; */
     padding: 10% 0;
+    bottom: 0px;
    
 
 }
-/* The CSS code `body{ line-height: 1.5; font-family: Arial, Helvetica, sans-serif; }` is setting the
-line height and font family for the entire body of the HTML document. */
-/* body{
-    line-height: 1.5;
-    font-family: Arial, Helvetica, sans-serif;
-} */
 .footer-container{
-    max-width:1170px;
+    max-width:100%;
    
-    background-color: orange;
+    background-color: rgb(57, 57, 57);
     margin: auto;
+    
 }
 .footer-row{
     display: flex;
@@ -328,10 +322,10 @@ line height and font family for the entire body of the HTML document. */
     font-size: 18px;
     color: #ffff;
     text-transform: capitalize;
-    margin-bottom: 30px;
-    font-weight: 500;
+    margin-bottom: 35px;
+    font-weight: 1000;
     position: relative;
-    background-color: red;
+    
 }
 .footer-col h4::before{
     content: '';
@@ -344,7 +338,9 @@ line height and font family for the entire body of the HTML document. */
     width: 50px;
 
 }
-
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
 
 .footer-col ul li a{
     font-size: 16px;
@@ -352,6 +348,14 @@ line height and font family for the entire body of the HTML document. */
     color: #fff;
     text-decoration: none;
     font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+
+
+}
+.footer-col ul li a:hover{
+    color: #ffff;
 
 }
 ul{
@@ -361,4 +365,38 @@ ul{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+@media (max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+
+}
+@media (max-width:574px){
+    .footer-col{
+        width: 100%;
+        
+        
+    }
+
 }
