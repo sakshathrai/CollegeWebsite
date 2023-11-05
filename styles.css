@@ -196,10 +196,48 @@ section {
     background-color: #000;
 }
 
-.item2 {
-    background-color: rgb(17, 85, 85);
+/*course section*/
+.course {
+    width: 100%;
+    margin: auto;
+    /* text-align: center; */
+    padding-top: 10px;
+    background-color: rgb(181, 227, 227);
 }
+.h1{
+    
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    top: 100px;
 
+}
+/* .p{
+    color: #0c0c0c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height:22px ;
+    padding: 10px;
+
+
+} */
+.row{
+    margin-top: 5%;
+    display:flex;
+    justify-content: space-between;
+    left: 10%;
+}
+.coursecol{
+   flex-basis: 31%; 
+    background-color: rgb(243, 217, 217);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
 .item3 {
     background-color: rgb(2, 17, 17);
 }
@@ -215,3 +253,4 @@ section {
 .navbar-custom .navbar-nav .nav-link {
     margin: 0 13px;
 }
+/*-------------aboutus page-----------*/
