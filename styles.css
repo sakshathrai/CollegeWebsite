@@ -294,4 +294,71 @@ marquee{
     color: #0b23d7;
     background: rgba(255, 255, 255, 0.7);
 }
+/* -------------footer---------- */
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: darkblue;
+    padding: 10% 0;
+   
 
+}
+/* The CSS code `body{ line-height: 1.5; font-family: Arial, Helvetica, sans-serif; }` is setting the
+line height and font family for the entire body of the HTML document. */
+/* body{
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.footer-container{
+    max-width:1170px;
+   
+    background-color: orange;
+    margin: auto;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color: red;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: yellow;
+    height: 2px;
+    box-sizing:border-box;
+    width: 50px;
+
+}
+
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+ul{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
