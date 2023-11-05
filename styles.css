@@ -299,8 +299,7 @@ marquee{
 .footer{
     /* background-color: darkblue; */
     padding: 10% 0;
-    bottom: 0px;
-   
+    padding-bottom: 0px;
 
 }
 .footer-container{
@@ -395,8 +394,15 @@ ul{
 @media (max-width:574px){
     .footer-col{
         width: 100%;
-        
-        
     }
+}
+#home > footer > div > p{
+    color: #fbf9f9;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 0px;
+}
 
+#home  footer  ul{
+    padding-left: 0px;
 }
