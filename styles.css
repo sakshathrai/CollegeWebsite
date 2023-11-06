@@ -130,9 +130,32 @@ h1 {
     }
     .crd.four  .desk-div {
         flex-direction: column;
-      }
-      .crd.four  h1 {
+    }
+    .crd.four  h1 {
         padding-top: 0;
+    }
+    #PLACEMENT h5{
+        font-size: 23px;
+    }
+    #PLACEMENT  p{
+        font-size: 13px;
+    }
+    #PLACEMENT small{
+    font-size: 13px;
+    }
+    #PLACEMENT .about-cards{
+        padding:25px ;
+     }
+     .ainfo h3 {
+        font-size: 2.1rem;
+        font-weight: 600;
+        color: white;
+        margin: 10px 0;
+      }
+      
+      .ainfo p {
+        font-size: 1.2rem;
+        color: white;
       }
 }
 
@@ -207,6 +230,53 @@ h1 {
     .container .about-cards-container{
         padding: 20px;
     }
+    #home > div.ui.full-width-container > div{
+        
+    }
+    #home > div.ui.full-width-container > div > div:nth-child(1){
+
+    }
+    #home > div.ui.full-width-container > div > div:nth-child(1) > div > div.ui.sub-heading{
+        font-size: 20px;
+    }
+    #home > div.ui.full-width-container > div > div:nth-child(n) > div > div.ui.one-liner-captions{
+        font-size: 14px;
+    }
+    #ABOUT-US .about-cards-container{
+        flex-direction: column;
+    }
+    #ABOUT-US .about-cards{
+        width:100%;
+        margin-bottom: 10px;
+    }
+    #ABOUT-US  h3{
+        font-size: 18px;
+    }
+    #ABOUT-US p{
+        font-size: 10px;
+    }
+    #PLACEMENT .about-cards-container{
+        flex-direction: column;
+    }
+    #PLACEMENT .about-cards{
+       width: 100%;
+       justify-content: center;
+    }
+    #PLACEMENT img{
+        margin:  auto;
+        width:170px ;
+        justify-content: center;
+    }
+    #PLACEMENT h5{
+        font-size: 18px;
+    }
+    #PLACEMENT  p{
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    #PLACEMENT small{
+        font-size: 10px;
+    }
 
 }
 
@@ -250,6 +320,19 @@ h1 {
     .content p{
         font-size: 15px;
     }
+    #home > div.ui.full-width-container  div.ui.sub-heading{
+        font-size: 17px;
+    }
+    #home > div.ui.full-width-container > div > div:nth-child(2) > div > div.ui.sub-heading
+    #home > div.ui.full-width-container > div > div:nth-child(n) > div > div.ui.one-liner-captions{
+        font-size: 10px;
+    }
+    .full-width-container .flexbox .profile-placeholder{
+        width: 100%;
+    }
+    #ABOUT-US{
+        padding: 30px;
+    }
 }
 
 section {
@@ -258,7 +341,6 @@ section {
     justify-content: center;
     align-items: center;
 }
-
 
 /*course section*/
 .card-container-heading{
@@ -440,10 +522,12 @@ ul{
     display: flex;
 }
 
+
 .about-cards-container {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
+    margin: 10px;
 }
 
 .about-cards {
@@ -453,6 +537,7 @@ ul{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     text-align: center;
+    
 }
 .about-cards:hover {
     transform: scale(1.05);
@@ -521,6 +606,7 @@ ul{
     background-color: #bae6fd;
     z-index: 2;
     box-sizing: border-box;
+    
 }
 
 .ui.flexbox {
@@ -555,12 +641,12 @@ ul{
 }
 
 .ui.sub-heading {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-weight: bold;
 }
 
 .ui.one-liner-captions {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .about-cards-container {
     display: flex;
@@ -583,10 +669,22 @@ ul{
     background-color: #f0f0f0; 
 }
 .card-title{
-    font-size: 30px;
+    font-size: 22px;
+    color: rgb(4, 0, 255);
+    font-weight: 900;
     padding: 5px;
-}.crd.four {
-    background-color: #2f6083;
+}
+#PLACEMENT small{
+    color: green;
+    font-size: 13px;
+    }
+.card-text{
+    font-size: 18px;
+    color: rgb(0, 0, 0) !important;
+    text-align: none;
+}
+.crd.four {
+    background-color: #1d3557;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -597,10 +695,13 @@ ul{
   }
   
   .crd.four > h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     color: white;
     margin-bottom: 20px;
+  }
+  #home div.crd.four  img{
+    border: solid 2px white ;
   }
   
   .desk-div {
@@ -624,15 +725,16 @@ ul{
     height: 130%;
   }
   
+  
   .ainfo h3 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-weight: 600;
     color: white;
     margin: 10px 0;
   }
   
   .ainfo p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: white;
   }
   .header-college-info-container {
