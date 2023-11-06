@@ -8,7 +8,8 @@ body {
 }
 .frontBody {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/frontView.jpg); */
-    background-image:url(images/frontView.jpg);
+    background-image:url(images/frontview2.jpg);
+    background-position: top;
     background-size: cover;
     height: 100vh;
     min-height: 400px;
@@ -111,6 +112,26 @@ h1 {
 .content p{
     font-size: 21px;
 }
+
+.about-cards-container {
+    display: flex;
+    gap: 5%;
+    min-height: 40vh;
+    justify-content: center
+
+
+  }
+  
+  .about-cards {
+    border: 1px solid black;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #PLACEMENT  h2{
+        text-align: center;
+    }
 @media (max-width: 1000px) {
     .name h1 {
         font-size: 40px;
@@ -230,12 +251,7 @@ h1 {
     .container .about-cards-container{
         padding: 20px;
     }
-    #home > div.ui.full-width-container > div{
-        
-    }
-    #home > div.ui.full-width-container > div > div:nth-child(1){
-
-    }
+   
     #home > div.ui.full-width-container > div > div:nth-child(1) > div > div.ui.sub-heading{
         font-size: 20px;
     }
@@ -251,9 +267,12 @@ h1 {
     }
     #ABOUT-US  h3{
         font-size: 18px;
+        padding: 10px;
     }
     #ABOUT-US p{
-        font-size: 10px;
+        font-size: 8px;
+        border-left: 1px solid black;
+        padding: 10px;
     }
     #PLACEMENT .about-cards-container{
         flex-direction: column;
@@ -277,7 +296,9 @@ h1 {
     #PLACEMENT small{
         font-size: 10px;
     }
-
+    .card-img-top{
+        width: 10px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -332,6 +353,23 @@ h1 {
     }
     #ABOUT-US{
         padding: 30px;
+    }
+    #PLACEMENT img{
+        margin:  10px;
+        width:150px ;
+        justify-content: center;
+    }
+    .about-cards{
+        height: auto;
+        max-height: 50vh;
+        display: flex;
+        flex-direction: row; 
+        margin: 10px;
+
+    }
+    .card-body{
+        width: 30%;
+        
     }
 }
 
@@ -537,7 +575,6 @@ ul{
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
     text-align: center;
-    
 }
 .about-cards:hover {
     transform: scale(1.05);
@@ -600,11 +637,11 @@ ul{
     justify-content: space-evenly;
     align-items: center;
     padding: 5vh 5vw;
-    position: relative;
+  
     height: 100vh; 
     top: 0;
     background-color: #bae6fd;
-    z-index: 2;
+    z-index: 1;
     box-sizing: border-box;
     
 }
@@ -692,6 +729,7 @@ ul{
     align-items: center;
     padding: 120px;
     text-align: center;
+    z-index: 3;
   }
   
   .crd.four > h1 {
@@ -730,8 +768,11 @@ ul{
     font-size: 2.2rem;
     font-weight: 600;
     color: white;
+    width: 100;
     margin: 10px 0;
   }
+
+
   
   .ainfo p {
     font-size: 1.5rem;
@@ -760,6 +801,9 @@ ul{
     height: 100vh;
   }
   
+  .card{
+    z-index: 4;
+  }
   .imageorvideo {
     height: 100vh;
   }
@@ -781,19 +825,6 @@ ul{
     padding: 5vh 5vw;
   }
   
-  .about-cards-container {
-    display: flex;
-    gap: 5%;
-    min-height: 40vh;
-  }
-  
-  .about-cards {
-    border: 1px solid black;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
   .second-z-scroll-info {
     background-color: aquamarine;
     z-index: 3;
