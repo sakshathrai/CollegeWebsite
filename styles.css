@@ -6,9 +6,13 @@ body {
 
 
 }
+.region1wrap{
+    background-color: #1d3557;
+}
+
 .frontBody {
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/frontView.jpg); */
-    background-image:url(images/frontview2.jpg);
+    background-image:url(images/frontView.jpg);
     background-position: top;
     background-size: cover;
     height: 100vh;
@@ -16,6 +20,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.nav-item{
+    padding: 4px;
 }
 .navdis {
     display: inline-block;
